@@ -1,0 +1,42 @@
+// IMAGES AND BACKGROUINDS
+
+#header-img {
+    width: 250px;
+    padding: 10px;
+  }
+
+  #matr {
+    display: none;
+    align-self: center;
+    width: 50px;
+  }
+
+button {
+    font-family: 'lato', sans-serif;
+    border: none;
+    padding: 10px 30px;
+    background-color: $accent-clr;
+    color: $dark-clr;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    border-radius: 50px;
+    width: 150px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: white;
+    box-shadow: 0px 0px 0px 2px $accent-clr;
+}
+
+
+// BREAKPOINTS
+
+@media only screen and (min-width: $min-width) {
+    #matr {
+      display: block;
+      align-self: center;
+      width: 100px;
+    }
+}

@@ -1,0 +1,30 @@
+// VARIABLES
+
+$dark-clr: rgb(49, 49, 49);
+$light-clr: rgb(247, 245, 243);
+$light-clr-shade: rgb(238, 230, 212);
+$accent-clr: rgb(219, 151, 23);
+$accent-hover-clr: rgb(255, 184, 51);
+
+$min-width: 500px;
+
+// MIXINS
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin bgImgCover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin bgImgParallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
